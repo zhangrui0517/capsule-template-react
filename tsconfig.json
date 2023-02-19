@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "ES2015",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "jsx": "react",
+    "moduleResolution":"node",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+    }
+  },
+  "include": ["./src","index.d.ts"],
+  /* 不检查的目录 */
+  "exclude": ["node_modules", "./dist"]
+}
+ 

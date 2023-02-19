@@ -1,0 +1,10 @@
+/src
+/tsconfig.json
+test
+script
+node_modules
+dist
+.yarnrc
+yarn-error.log
+yarn.lock
+.eslintcache
