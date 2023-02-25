@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2016",
-    "module": "ES2015",
+    "module": "ESNext",
     "declaration": true,
     "declarationDir": "./dist",
     "emitDeclarationOnly": true,
@@ -14,7 +14,7 @@
       "@assets/*": ["src/assets/*"],
     }
   },
-  "include": ["./src","index.d.ts"],
+  "include": ["./src","index.d.ts", "env.d.ts"],
   /* 不检查的目录 */
   "exclude": ["node_modules", "./dist"]
 }
